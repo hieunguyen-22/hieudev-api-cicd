@@ -4,11 +4,11 @@ const router = express.Router();
 router.get('/checkstatus', (req, res, next) => {
     res.status(200).json({
         status: 'success',
-        message: 'api ok'
+        message: 'api ok from index.router.js'
     })
 })
 
-router.get('/users', (req, res, next) => {
+router.get('/api/users', (req, res, next) => {
     res.status(200).json({
         status: 'success',
         message: 'api ok',
@@ -19,12 +19,12 @@ router.get('/users', (req, res, next) => {
             },
             {
                 id: 2,
-                name: 'Messi'
+                name: 'Messi',
             },
             {
                 id: 3,
-                name: 'Ronaldo'
-            }
+                name: 'Ronaldo',
+            },
         ]
     })
 })

@@ -16,14 +16,17 @@ router.get('/api/users', (req, res, next) => {
             {
                 id: 1,
                 name: 'Hieu Nguyen',
+                age: 27,
             },
             {
                 id: 2,
                 name: 'Messi',
+                age: 38,
             },
             {
                 id: 3,
                 name: 'Ronaldo',
+                age: 40,
             },
         ]
     })
